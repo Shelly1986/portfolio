@@ -21,6 +21,7 @@
   <center><img src="cake.PNG" width="500" height="300"></center>
 
   ## Step 1 - Install the 'PySimpleGUI' package. 
+  
   Just like installing any other Python library, **PySimpleGUI** can be installed by a simple pip install command in the cmd terminal. Please note that the name of the library is case-sensitive.
 
   ```{cmd}
@@ -28,6 +29,7 @@
   ```
 
   ## Step 2 - Let's start coding! Import PySimpleGUI into your code.
+  
   Now that we have installed the required library, let us import it in our Python code. 
 
   ```{Python}
@@ -66,6 +68,7 @@ layout = [
 
 ]
 ```
+
 As you can clearly see above, we have out master list called 'layout' and inside it we have several lists separated by a comma. Each list separated by a comma is one row. 
 
 There are several attributes that we have used with each element above. Let us take an example of the below line of code:
