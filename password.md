@@ -27,13 +27,13 @@ There are many fancy and glamorous tools available out there but if you are a be
 
 Depending upon whether you are a Windows or a MAC user, you can download the appropriate Python installer and run it to get your beloved IDLE(see image below).
 
-<center><img src = "download.png" width="600" height="400"></center>
+<center><img src = "download.png" width="700" height="400"></center>
 
 ## Step 2 - Find IDLE in your machine
 
 Now that you have manifested IDLE into your life, let's jump in. IDLE can be opened by simply searching it in the Windows Search bar(see image below)
 
-<center><img src="IDLE.png" width = "600" height="400"></center>
+<center><img src="IDLE.png" width = "700" height="400"></center>
 
 ## Step 3- Let's Jump in
 
