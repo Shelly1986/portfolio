@@ -109,5 +109,4 @@ Below is the output you should see once you hit 'Run' and input your choices.
 
 ![FinalOutput](final.PNG)
 
-
-
+[A GUI version of this project is here](https://github.com/Shelly1986/strongpasswordgenerator.git)
