@@ -11,7 +11,7 @@
           <a href="#">Javascript</a>
         </div>
     </div>
-    <button onclick="window.location.href='https://www.youtube.com/@shellysachdev/videos';">YouTube</button>
+    <button onclick="window.open('https://www.youtube.com/@shellysachdev/videos', '_blank')">YouTube</button>
   </nav>
 
   Python is a very powerful coding language and it has a number of useful packages which coders can use to create what they want.
