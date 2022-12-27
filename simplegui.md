@@ -79,7 +79,7 @@ In this row, we also have an Input Box which will receive the value of name from
 
 You will notice that all the elements whose values need to be extracted or manipulated in our code at a later stage have a unique key. Keys do not need to mandatorily have a format of '-KEY-' but this is the format in the Python documentation on PySimpleGUI hence I used the same format. 
 
-# Step4 - Let us create our window
+## Step4 - Let us create our window
 
 We have successfully designed the layout of our window but are we ready to hit the 'Run' button to see the window? Not yet. We need to initialize a variable which is an instance of the 'Window' method of PySimpleGUI package and it takes two parameters: 
 
@@ -92,7 +92,7 @@ window = sg.Window('Cake Order',layout)
 
 Are we now ready to hit the 'Run' button? No, not yet. Let us execute the next step and then we will Run the code to see if we have the window ready.
 
-## Step 4 - Let us define some events.
+## Step 5 - Let us define some events.
 
 Before we run our code, we want to make sure that our window will be able to read the values that we enter and the buttons that we press. Also, we want to be sure that the window will remain open on our screen unless and until we close it explicitly and hence the code below:
 
@@ -104,7 +104,7 @@ while True:
 window.close()
 ```
 
-## Step 5 - Calculate the price of order 
+## Step 6 - Calculate the price of order 
 
 Our final app should be able to display the total price of the cake depending upon the options chosen by the user. Let us initialize a variable 'price' which has an intital value of 0 and let us use the variable 'name' which will store the user's name. 
 
