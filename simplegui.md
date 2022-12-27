@@ -79,7 +79,7 @@ There are several attributes that we have used with each element above. Let us t
 ```
 
 In the above line of code, we have the first element as **'Text'** which will be visible as 'Your Name: ' on the front end, then we have the **size** as (20,1) which means this text element will have a width of 20 pixels and height of 1 pixel. 
-In this row, we also have an **Input Box** which will receive the value of name from a user. This Input Box does not need a name because Input Boxes are usually blank but this element instead has a *key '-TEXT1-'* as a parameter. We must understand here that we need a key for this element because we need to manipulate the value inside this input box later in our code and so we need a way to identify this value uniquely hence the concept of key. A key is a unique name to identify a value in an element.  
+In this row, we also have an **Input Box** which will receive the value of name from a user. This Input Box does not need a name because Input Boxes are usually blank but this element instead has a *key '-TEXT1-'* as a parameter. We must understand here that we need a key for this element because we need to manipulate the value inside this input box later in our code and so we need a way to identify this value uniquely hence the concept of key. **A key is a unique name to identify a value in an element. **
 
 You will notice that all the elements whose values need to be extracted or manipulated in our code at a later stage have a unique key. Keys do not need to mandatorily have a format of '-KEY-' but this is the format in the Python documentation on PySimpleGUI hence I used the same format. 
 
