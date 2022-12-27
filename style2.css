@@ -1,18 +1,5 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Orbitron:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:ital,wght@1,300&display=swap');
-@import "minima";
-
-.repository-link {
-  display: none;
-}
-
-.repository-banner {
-  display: none;
-}
-
-
 body {
   font-family: Orbitron;
   background: #d0ece3;
@@ -246,3 +233,8 @@ textarea {
   color: rgb(98, 187, 238);
 }
 
+.callout{
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
