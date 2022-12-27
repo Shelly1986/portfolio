@@ -33,7 +33,7 @@ Depending upon whether you are a Windows or a MAC user, you can download the app
 
 Now that you have manifested IDLE into your life, let's jump in. IDLE can be opened by simply searching it in the Windows Search bar(see image below)
 
-<center><img src="IDLE.png" width = "800" height="450"></center>
+<center><img src="IDLE.png" width = "800" height="500"></center>
 
 ## Step 3- Let's Jump in
 
