@@ -108,5 +108,6 @@ print("Here is your strong password: ", final_password)
 Below is the output you should see once you hit 'Run' and input your choices.
 
 ![FinalOutput](final.PNG)
+<br>
 
-[A GUI version of this project is here](https://github.com/Shelly1986/strongpasswordgenerator.git)
+<a href="https://github.com/Shelly1986/strongpasswordgenerator.git" target="_blank">A GUI version of this project is here</a>
