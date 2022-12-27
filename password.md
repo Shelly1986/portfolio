@@ -20,7 +20,7 @@ The best way to learn something is by doing it. This fact is true for every sing
 So, if you fancy learning Python, the best way forward is to start coding in Python.
 
 ## Step 1: Get your tools ready
-
+<br>
 The first thing you need is an environment which will let you write code, will understand your code, compile your code and show you the expected output. In programming terms, we call it IDLE(Integrated Development and Learning Environment).
 
 There are many fancy and glamorous tools available out there but if you are a beginner, simply start by downloading Python from [this website](https://www.python.org/)
@@ -30,13 +30,13 @@ Depending upon whether you are a Windows or a MAC user, you can download the app
 <center><img src = "download.png" width="800" height="450"></center>
 
 ## Step 2 - Find IDLE in your machine
-
+<br>
 Now that you have manifested IDLE into your life, let's jump in. IDLE can be opened by simply searching it in the Windows Search bar(see image below)
 
 <center><img src="IDLE.png" width = "800" height="500"></center>
 
 ## Step 3- Let's Jump in
-
+<br>
 Since this project is about letting Python generate a very strong password for you so let us define what exactly is a strong password. A strong password in its simplest form can be defined as a random collection of uppercase letters, lowercase letters, numbers and special characters which is practically impossible to hack through brute force.
 
 The first line in your code should be a simple import because we will be using the 'string' module of Python which has all the necessary functions for us to use uppercase characters, lowercase characters, numbers and special characters in our program.
