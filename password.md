@@ -1,5 +1,5 @@
   
-  <link rel ="stylesheet" href="style.css">
+  <link rel ="stylesheet" href="style2.css">
   <div class = "heading">
     <h1>Let Python help you generate a strong password</h1>
   </div>
