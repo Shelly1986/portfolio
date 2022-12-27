@@ -22,7 +22,7 @@
   
 
 ## Step 1 - Install the 'PySimpleGUI' package. 
-  
+<br>
 Just like installing any other Python library, **PySimpleGUI** can be installed by a simple pip install command in the cmd terminal. Please note that the name of the library is case-sensitive.
 
   ```{cmd}
@@ -30,7 +30,7 @@ Just like installing any other Python library, **PySimpleGUI** can be installed 
   ```
 
 ## Step 2 - Let's start coding! Import PySimpleGUI into your code.
-  
+<br>
 Now that we have installed the required library, let us import it in our Python code. 
 
   ```{Python}
@@ -40,7 +40,7 @@ Now that we have installed the required library, let us import it in our Python 
   You may be wondering what this 'sg' is all about. When I say import PySimpleGUI as sg, it just means that everytime I use the name of the library in my code, I want to avoid the hassle of writing 'PySimpleGUI' since it is a long name. Hence, I have nicknamed 'PySimpleGUI' as 'sg'.
 
 ## Step 3 - Creating a layout window
-
+<br>
 As you saw above, the final output is a window with a number of different *widgets/elements*. Let us now design the layout of our window. The layout of the window is defined as a Python list and inside the master list, we have several other lists. Each list inside the master list is one row of the window. See the annotated diagram below to understand this better:
 
   <center><img src="annotatedcake.PNG"></center>
@@ -84,8 +84,7 @@ In this row, we also have an **Input Box** which will receive the value of name 
 You will notice that all the elements whose values need to be extracted or manipulated in our code at a later stage have a unique key. Keys do not need to mandatorily have a format of '-KEY-' but this is the format in the Python documentation on PySimpleGUI hence I used the same format. 
 
 ## Step 4 - Let us create our window
-
-
+<br>
 We have successfully designed the layout of our window but are we ready to hit the 'Run' button to see the window? Not yet. We need to initialize a variable which is an instance of the **'Window'** method of PySimpleGUI package and it takes two parameters: 
 
 1. **Title** - This will be the title of the window. Notice the 'Cake Order' title in the annotated picture above. 
@@ -98,8 +97,7 @@ window = sg.Window('Cake Order',layout)
 Are we now ready to hit the 'Run' button? No, not yet. Let us execute the next step and then we will Run the code to see if we have the window ready.
 
 ## Step 5 - Let us define some events.
-
-
+<br>
 Before we run our code, we want to make sure that our window will be able to read the values that we enter and the buttons that we press. Also, we want to be sure that the window will remain open on our screen unless and until we close it explicitly and hence the code below:
 
 ```{Python}
@@ -111,7 +109,7 @@ window.close()
 ```
 
 ## Step 6 - Calculate the price of order 
-
+<br>
 
 Our final app should be able to display the total price of the cake depending upon the options chosen by the user. Let us initialize a variable *'price'* which has an intital value of 0 and let us use the variable 'name' which will store the user's name. 
 
