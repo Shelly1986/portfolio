@@ -12,7 +12,7 @@
           <a href="#">Javascript</a>
         </div>
     </div>
-    <button onclick="window.location.href='https://www.youtube.com/@shellysachdev/videos';">YouTube</button>
+    <button onclick="window.open('https://www.youtube.com/@shellysachdev/videos', '_blank')">YouTube</button>
   </nav>
 
 The best way to learn something is by doing it. This fact is true for every single skill that you have learnt so far or are planning to learn.
