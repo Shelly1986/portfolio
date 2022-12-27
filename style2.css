@@ -8,6 +8,11 @@
   display: none;
 }
 
+.repository-banner {
+  display: none;
+}
+
+
 body {
   font-family: Orbitron;
   background: #d0ece3;
