@@ -19,7 +19,7 @@
   Recently, with my Year 12 students, I explored the magical 'PySimpleGUI' library which is simple yet a very powerful tool to build GUI apps in pure python. Later, we even used 'sqlite3' package in Python to let our app do the talking with a database. This tutorial will focus on the GUI part of the app that we built as a class. We built a Cake Order form with various input boxes, radio buttons, dropdowns and checkboxes. Depending upon various choices that the user selects on the app, the app displays the total cost of their order and displays it. The idea was to let students have fun while coding. Eventually, below was our final front face of our app.
 
   <center><img src="cake.PNG" width="500" height="300"></center>
-  
+ <br>
 
 ## Step 1 - Install the 'PySimpleGUI' package. 
 <br>
