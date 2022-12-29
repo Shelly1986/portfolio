@@ -1,6 +1,6 @@
 <link rel ="stylesheet" href="style2.css">
   <div class = "heading">
-    <h1>'PySimpleGUI' is magical</h1>
+    <h1>Magic Square</h1>
   </div>
   <nav class = "topbar">
     <button onclick="window.location.href='index.html';">About</button>
@@ -57,7 +57,7 @@
   
   Visually, the below picture describes what we should be writing into our code. 
 
-     <img src="diagonals.PNG">
+  <img src="diagonals.PNG">
 
   Let us first write the code for the red diagonal. We basically have to add elements on [Row 0][Column 0], [Row 1][Column 1], [Row 2][Column 2]. 
 
