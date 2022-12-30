@@ -120,7 +120,7 @@
 
   If the checks that we did in point no. 1 and 2 above fail, then our grid is certainly a magic square. 
 
-  <li>Lastly, outside the check() function, we must call the display() function so that our grid gets printed on screen and also we must print the value being returned from our check() function.</li>
+  <li>Lastly, outside the check() function, we must call the display() function so that our grid gets printed on screen and also we must print the value being returned from our check() function.</li></ol>
   
   ```{Python}
   display()
