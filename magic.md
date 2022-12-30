@@ -52,8 +52,8 @@
   Now is when we should start writing another function in our code which will take this 2D matrix and will tell us whether it is a magic square or not. 
 
   The logic that we will use in our program is as follows:
-
-1. First we will calculate the sum of numbers on both the diagonals and comapare the sum to see if they are equal.
+<ol>
+  <li>First we will calculate the sum of numbers on both the diagonals and comapare the sum to see if they are equal.
   
   Visually, the below picture describes what we should be writing into our code. 
 
@@ -89,7 +89,8 @@
   if not(sum_d1 == sum_d2):
     return "Not a magic square"
   ```
-2. Congratulations, we have successfully checked off the first condition of the magic square. Next we need to check if the sum of numbers on each row is equal to the sum of numbers on each column. In this case, we will have to use the **nested FOR loops** because we will start with Row 0 and add all the three numbers on this row. Next, we will increment to Row 1 and do the same and finally finish it off with Row 2 which is the last row. As you would have noticed, for each iteration of the row, we are moving from column 0 to 2. So, the outer FOR loop must iterate on rows and the inner FOR loop must iterate on columns. 
+  </li>
+  <li>Congratulations, we have successfully checked off the first condition of the magic square. Next we need to check if the sum of numbers on each row is equal to the sum of numbers on each column. In this case, we will have to use the **nested FOR loops** because we will start with Row 0 and add all the three numbers on this row. Next, we will increment to Row 1 and do the same and finally finish it off with Row 2 which is the last row. As you would have noticed, for each iteration of the row, we are moving from column 0 to 2. So, the outer FOR loop must iterate on rows and the inner FOR loop must iterate on columns. 
 
   ```{Python}
   for row in range(0,3):
@@ -99,29 +100,31 @@
       sum_rows += magic_square[row][col]
       sum_columns += magic_square[col][row]
   ```
-
- 3. Let us now check whether sum of rows is equal to sum of columns and whether it also equals the sum of any of the above diagonal sum. 
+  </li>
+ <li>Let us now check whether sum of rows is equal to sum of columns and whether it also equals the sum of any of the above diagonal sum. 
 
   ```{Python}
   if not(sum_rows == sum_columns == sum_d1):
     return "Not a magic square"
   ```
-
- 4. The last line in the check() function is:
+  </li>
+ 
+  <li>The last line in the check() function is:
   
   ```{Python}
   return "It is a magic square"
   ```
+  </li>
 
   If the checks that we did in point no. 1 and 2 above fail, then our grid is certainly a magic square. 
 
- 5. Lastly, outside the check() function, we must call the display() function so that our grid gets printed on screen and also we must print the value being returned from our check() function.
+  <li>Lastly, outside the check() function, we must call the display() function so that our grid gets printed on screen and also we must print the value being returned from our check() function.
   
   ```{Python}
   display()
   print(check())
   ```
-
+  </li>
   [The entire code can be found here](https://github.com/Shelly1986/magicsquare.git)
 
 
