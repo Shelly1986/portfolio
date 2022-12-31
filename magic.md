@@ -73,8 +73,8 @@
 
   ```{Python}
   def check(): #check() is the name of the function
-    sum_d1 = 0 #variable to initialise sum of diagonal 1 to 0
-    sum_d2 = 0 #variable to initialise sum of diagona2 1 to 0
+    sum_d1 = 0 #variable to initialise sum of diagonal1 to 0
+    sum_d2 = 0 #variable to initialise sum of diagonal2 to 0
     for row in range(3):
         sum_d1 += magic_square[row][row]
   ```

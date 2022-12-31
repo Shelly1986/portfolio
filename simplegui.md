@@ -16,7 +16,10 @@
 
   Python is a very powerful coding language and it has a number of useful packages which coders can use to create what they want.
 
-  Recently, with my Year 12 students, I explored the magical 'PySimpleGUI' library which is simple yet a very powerful tool to build GUI apps in pure python. Later, we even used 'sqlite3' package in Python to let our app do the talking with a database. This tutorial will focus on the GUI part of the app that we built as a class. We built a Cake Order form with various input boxes, radio buttons, dropdowns and checkboxes. Depending upon various choices that the user selects on the app, the app displays the total cost of their order and displays it. The idea was to let students have fun while coding. Eventually, below was our final front face of our app.
+  Recently, with my Year 12 students, I explored the magical 'PySimpleGUI' library which is simple yet a very powerful tool to build GUI apps in pure python. Later, we even used 'sqlite3' package in Python to let our app do the talking with a database. This tutorial will focus on the GUI part of the app that we built in our Computer Sciences classes. 
+  
+  
+  We built a Cake Order form with various input boxes, radio buttons, dropdowns and checkboxes. Depending upon various choices that the user selects on the app, the app displays the total cost of their order and displays it. The idea was to let students have fun while coding. Eventually, below was our final front face of the app.
 
   <center><img src="cake.PNG" width="500" height="300"></center>
 
@@ -32,7 +35,7 @@
 ## Step 2 - Let's start coding! Import PySimpleGUI into your code.
 
 
-  Now that we have installed the required library, let us import it in our Python code. 
+  Now that we have installed the required library, let us import it into our Python code. 
 
   ```{Python}
   import PySimpleGUI as sg
@@ -43,11 +46,11 @@
 ## Step 3 - Creating a layout window
 
 
-  As you saw above, the final output is a window with a number of different widgets/elements. Let us now design the layout of our window. The layout of the window is defined as a Python list and inside the master list, we have several other lists. Each list inside the master list is one row of the window. See the annotated diagram below to understand this better:
+  As you saw in the final picture of the app, the final output is a window with a number of different widgets/elements. Let us now design the layout of our window. The layout of the window is defined as a Python list and inside the master list, we have several other lists. Each list inside the master list is one row inside the window. See the annotated diagram below to understand this better:
 
   <center><img src="annotatedcake.PNG"></center>
 
-  As you can see in the annotated picture above, inside the main master window, we have different elements placed in different rows. Row 1 has the label 'Theme Cake order Form', row 2 has the label 'Your Name' and an input box next to it and so on and so forth. The same structure described here can be employed in our coding style for the design of layout window which means create one master list and then create several lists for each row and simply place elements in appropriate lists. Let us see how do we do that in Python:
+  As you can see in the annotated picture above, inside the main master window, we have different elements placed in different rows. Row 1 has the label 'Theme Cake order Form', row 2 has the label 'Your Name' and an input box next to it and so on and so forth. The same structure described here can be employed in our coding style for the design of layout window. We will create one master list and then we will create several lists inside for each row and simply place elements in appropriate lists. Let us see how do we do that in Python:
 
   ```{Python}
 layout = [
@@ -80,14 +83,14 @@ There are several attributes that we have used with each element above. Let us t
 ```
 
 In the above line of code, we have the first element as 'Text' which will be visible as 'Your Name: ' on the front end, then we have the size as (20,1) which means this text element will have a width of 20 pixels and height of 1 pixel. 
-In this row, we also have an Input Box which will receive the value of name from a user. This Input Box does not need a name because Input Boxes are usually blank but this element instead has a key '-TEXT1-' as a parameter. We must understand here that we need a key for this element because we need to manipulate the value inside this input box later in our code and so we need a way to identify this value uniquely hence the concept of key. A key is a unique name to identify a value in an element.  
+In this row, we also have an Input Box where the user will enter their name. This Input Box has a key '-TEXT1-' as a parameter. We must understand here that we need a key for this element because we need to manipulate the value inside this input box later in our code and so we need a way to identify this value uniquely hence the concept of a key. A key is a unique name to identify a value in an element.  
 
-You will notice that all the elements whose values need to be extracted or manipulated in our code at a later stage have a unique key. Keys do not need to mandatorily have a format of '-KEY-' but this is the format in the Python documentation on PySimpleGUI hence I used the same format. 
+You will notice that all the elements whose values need to be extracted or manipulated in our code at a later stage have a unique key. Keys do not need to start and end with a hyphen, nor do they need to be all uppercase letters, but this format has been mentioned in the Python documentation on PySimpleGUI hence I used the same format. You can name the 'keys' the way you like. 
 
 ## Step 4 - Let us create our window
 
 
-We have successfully designed the layout of our window but are we ready to hit the 'Run' button to see the window? Not yet. We need to initialize a variable which is an instance of the 'Window' method of PySimpleGUI package and it takes two parameters: 
+We have successfully designed the layout of our window but are we ready to hit the 'Run' button to see the window ? Not yet. We need to initialize a variable which is an instance of the 'Window' method of PySimpleGUI package and it takes two parameters: 
 
 1. **Title** - This will be the title of the window. Notice the 'Cake Order' title in the annotated picture above. 
 2. **Layout** - The layout that we designed above is the second parameter. 
@@ -96,12 +99,12 @@ We have successfully designed the layout of our window but are we ready to hit t
 window = sg.Window('Cake Order',layout)
 ```
 
-Are we now ready to hit the 'Run' button? No, not yet. Let us execute the next step and then we will Run the code to see if we have the window ready.
+Are we now ready to hit the 'Run' button? No, still not. Let us execute the next step and then we will Run the code to see if we have the window ready.
 
 ## Step 5 - Let us define some events.
 
 
-Before we run our code, we want to make sure that our window will be able to read the values that we enter and the buttons that we press. Also, we want to be sure that the window will remain open on our screen unless and until we close it explicitly and hence the code below:
+Before we run our code, we want to make sure that our window will be able to make sense of the events that happen in the window. Also, we want to be sure that the window will remain open on our screen unless and until we close it explicitly and hence the code below:
 
 ```{Python}
 while True:
@@ -128,7 +131,7 @@ window.close()
 
 The next thing that we need to do is to see what serving size was selected by the user. Depending on the serving size selected, the price variable will be updated.
 
-The most important thing is that the value in the 'Serving Size' radio button will be read only when the user clicks on 'Click to Order' button. The click of a button is an event triggered by the button with key '-BUTTON-' in the window which needs to be read by our window. 
+The most important thing is that the value in the 'Serving Size' radio button will be read only when the user clicks on 'Click to Order' button. The click of a button is an event triggered by the button with key '-BUTTON-' which needs to be read by our window. 
 
 ```{Python}
 while True:
