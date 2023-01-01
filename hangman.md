@@ -72,6 +72,7 @@
       used.append(guess)
       display[count] = guess
       found = True
+  ```
   
   What if the guessed letter does not match any letter in the secret word? In that case, we will deduct one life from the variable **lives**.
 
