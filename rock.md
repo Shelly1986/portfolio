@@ -179,6 +179,6 @@ We have taken care of the player's choice but since the game is against the comp
       }
 ```
 
-    The whole project containing the HTML, CSS and Javascript can be found [here](https://github.com/Shelly1986/rockpaperscissors.git)
+The whole project containing the HTML, CSS and Javascript can be found [here](https://github.com/Shelly1986/rockpaperscissors.git)
 
 
