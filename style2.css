@@ -159,7 +159,7 @@ textarea {
   margin-left: 10px;
   border-radius: 50px;
   flex: 0.9;
-  transition: 0.7s ease-in;
+  transition: 0.7s linear;
   color: white;
 }
 
@@ -233,9 +233,12 @@ textarea {
   color: rgb(98, 187, 238);
 }
 
+li{
+  font-family: Josefin Sans;
+  font-size: 20px;
+}
 
-
-li, p{
+p{
   font-size: 18px;
 }
 
