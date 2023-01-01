@@ -26,7 +26,7 @@
 
   Our main webpage looked like the one below. It had a title on top, three buttons for the player to choose from and some labels which display the chosen options. The moment player presses a button, his choice as well as computer's choice is displayed and the winner is also displayed. 
 
-  ## HTML Code
+## HTML Code
 
   ```{HTML}
     <!DOCTYPE html>
@@ -154,7 +154,7 @@ We have taken care of the player's choice but since the game is against the comp
     else{
     document.getElementById("span2").innerText = "Scisccors"
   }
-
+```
   In the above code, we have used the Math.random() function of Javascript which will randomly choose numbers between 0 and 3. However, Math.random() can even choose decimal values which need to be rounded off to get an integer result. Hence, we also used Math.floor() and added 1 to the result so that we strictly get integer values 1,2 or 3 where the value of 1 means Rock, 2 means Paper and 3 signifies Scissors. 
 
   Once we have an integer value placed in the variable **computer_choice**, the next lines of code are simply if-else statements which place the right text in the space designated for computer's choice i.e. the empty space with id **span2**
@@ -177,7 +177,7 @@ We have taken care of the player's choice but since the game is against the comp
           }
         })
       }
-    ```
+  ```
 
     The whole project containing the HTML, CSS and Javascript can be found [here](https://github.com/Shelly1986/rockpaperscissors.git)
 
