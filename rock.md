@@ -1,6 +1,6 @@
 <link rel ="stylesheet" href="style2.css">
   <div class = "heading">
-    <h1>Magic Square</h1>
+    <h1>Rock Paper Scissors</h1>
   </div>
   <nav class = "topbar">
     <button onclick="window.location.href='index.html';">About</button>
@@ -161,7 +161,7 @@ We have taken care of the player's choice but since the game is against the comp
 
   Lastly, we need a few more if-else statements to compare the values in **player's choice** and **computer_choice** to update the winner in the empty space which has the id **span3**
 
-  ```{Javascript}
+```{Javascript}
     /*Compare user and computer choices to declare the winner*/
           if((player_choice=="Rock" && computer_choice==1)||(player_choice=="Paper" && computer_choice==2) ||(player_choice=="Scissors" && computer_choice==3))
           {
@@ -177,7 +177,7 @@ We have taken care of the player's choice but since the game is against the comp
           }
         })
       }
-  ```
+```
 
     The whole project containing the HTML, CSS and Javascript can be found [here](https://github.com/Shelly1986/rockpaperscissors.git)
 
