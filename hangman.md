@@ -8,7 +8,7 @@
       <button class = "dropbtn">Portfolio</button>
         <div class="dropdown-content">
           <a href="Python.html">Python</a>
-          <a href="#">Javascript</a>
+          <a href="Javascript.html">Javascript</a>
         </div>
     </div>
     <button onclick="window.open('https://www.youtube.com/@shellysachdev/videos', '_blank')">YouTube</button>
