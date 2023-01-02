@@ -24,7 +24,7 @@
 
   Let us jump into the code part of this app:
 
-  ## HTML Code
+## HTML Code
 
   ```{HTML}
     <!DOCTYPE html>
