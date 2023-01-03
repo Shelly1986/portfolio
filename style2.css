@@ -94,6 +94,7 @@ input[type=text]
 textarea {
   width: 215px;
   height: 200px;
+  resize: none;
 }
 
 .topbar{
