@@ -233,6 +233,9 @@ textarea {
   color: rgb(98, 187, 238);
 }
 
+li{
+  font-size: 18px;
+}
 p{
   font-size: 18px;
 }
