@@ -28,6 +28,7 @@ Our dice images folder must look like the one below:
 
 <center><img src="dicepics.PNG"></center>
 
+
 ## HTML Code 
 
 The top part of the code will remain the same *boilerplate* code where we simply link the stylesheet and the javascript files.
