@@ -79,13 +79,13 @@ The CSS code for the body of the page is below. I will explain each property in 
   }
 ```
 
-1. display: flex = This property is to set the entire page as a flex layout.
-2. flex-direction: column = We want the heading and then buttons below the heading so we have set the flex-direction to column so that both our divisions are in a column format.
-3. justify-content: center = This will align the heading and the buttons in the center of the main axis. The main axis in this case is vertical because we chose **column** as the flex-direction.
-4. align-items: center = This works in the same way as justify-content but on the cross-axis. This property will align items in center on the horizontal axis. 
-5. height: 100vh = The height of our webpage has been set as 100vh. **vh** here stands for **viewport height** which means the entire screen that is visible to us. 
-6. background-color = Initial color of the background when the page opens.
-7. color: white = This is the text color of the heading which will remain white throughout. 
+1. **display: flex** = This property is to set the entire page as a flex layout.
+2. **flex-direction**: column = We want the heading and then buttons below the heading so we have set the flex-direction to column so that both our divisions are in a column format.
+3. **justify-content**: center = This will align the heading and the buttons in the center of the main axis. The main axis in this case is vertical because we chose **column** as the flex-direction.
+4. **align-items**: center = This works in the same way as justify-content but on the cross-axis. This property will align items in center on the horizontal axis. 
+5. **height: 100vh** = The height of our webpage has been set as 100vh. **vh** here stands for **viewport height** which means the entire screen that is visible to us. 
+6. **background-color** = Initial color of the background when the page opens.
+7. **color: white** = This is the text color of the heading which will remain white throughout. 
 
 Next, let us work on styling the buttons. Each button is of same size and is round in shape so let us add the CSS properties to the **.btns** class as that will apply to all the buttons. 
 
