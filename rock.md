@@ -15,10 +15,10 @@
   </nav>
 
   [Rock Paper Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors) is a fun game which is played between two players using their hands. There are only three simple rules to the game:
-
+  
   1. Rock wins over scissors because rock is powerful and it can smash the scissors.
   2. Paper wins over rock as it can cover the rock.
-  3. Scissors wins over paper as it has the power to cut the paper. 
+  3. Scissors wins over paper as it has the power to cut the paper.
    
   As a class activity in Year 12, we simulated this game between a player and the computer using simple HTML, CSS and Javascript. 
 
@@ -155,11 +155,11 @@ We have taken care of the player's choice but since the game is against the comp
     document.getElementById("span2").innerText = "Scisccors"
   }
 ```
-  In the above code, we have used the Math.random() function of Javascript which will randomly choose numbers between 0 and 3. However, Math.random() can even choose decimal values which need to be rounded off to get an integer result. Hence, we also used Math.floor() and added 1 to the result so that we strictly get integer values 1,2 or 3 where the value of 1 means Rock, 2 means Paper and 3 signifies Scissors. 
+In the above code, we have used the Math.random() function of Javascript which will randomly choose numbers between 0 and 3. However, Math.random() can even choose decimal values which need to be rounded off to get an integer result. Hence, we also used Math.floor() and added 1 to the result so that we strictly get integer values 1,2 or 3 where the value of 1 means Rock, 2 means Paper and 3 signifies Scissors. 
 
-  Once we have an integer value placed in the variable **computer_choice**, the next lines of code are simply if-else statements which place the right text in the space designated for computer's choice i.e. the empty space with id **span2**
+Once we have an integer value placed in the variable **computer_choice**, the next lines of code are simply if-else statements which place the right text in the space designated for computer's choice i.e. the empty space with id **span2**
 
-  Lastly, we need a few more if-else statements to compare the values in **player's choice** and **computer_choice** to update the winner in the empty space which has the id **span3**
+Lastly, we need a few more if-else statements to compare the values in **player's choice** and **computer_choice** to update the winner in the empty space which has the id **span3**
 
 ```{Javascript}
     /*Compare user and computer choices to declare the winner*/
