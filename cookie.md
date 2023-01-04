@@ -1,6 +1,6 @@
 <link rel ="stylesheet" href="style2.css">
   <div class = "heading">
-    <h1>Logic Gates</h1>
+    <h1>Cookie Clicker Game</h1>
   </div>
   <nav class = "topbar">
     <button onclick="window.location.href='index.html';">About</button>
